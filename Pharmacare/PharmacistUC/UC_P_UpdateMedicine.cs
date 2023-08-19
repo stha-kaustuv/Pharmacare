@@ -94,7 +94,7 @@ namespace Pharmacare.PharmacistUC
                                                      //mid,mname,mnumber,mDate,mComposition,eDate,quantity,perUnit
             query = "update medic set mname ='"+mname+"',mnumber='"+mnumber+"',mDate='"+mdate+"',mComposition='"+mcompos+"',eDate='"+edate+"',quantity="+totalQuantity+",perUnit="+unitprice+"  where mid= '"+txtMediID.Text+"'";
             fn.setData(query, "Medicine Updated Sucessfully.");
-
+            ///changes
 
         }
     }
